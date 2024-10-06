@@ -12,6 +12,7 @@ Oulun Ammattikorkeakoulun TVT24KMO-luokka. Ryhmän 32 tietotekniikan sovelluspro
 # Kytkentä
 
 # Koodi
+![image](https://github.com/user-attachments/assets/f4e8e651-bba1-42c4-a659-ab6c8bcfb1fb)
 
 # Tekijät
 - Jenny Sarajärvi
