@@ -1,6 +1,7 @@
 #include "display.h"
 
 
+
 int resetPin = 7;
 int shiftClockPin = 6;
 int latchClockPin = 5;
