@@ -29,4 +29,8 @@ Arduino-koodissa on hyödynnetty keskeytyksiä, painikkeiden debounce-logiikkaa,
 
 # Ryhmän jäsenet
 
-![Henkilö 1](https://github.com/jennysara.png) ![henkilö2](https://github.com/Janitamaaaria.png) ![Henkilö 3](https://github.com/mikkohaapea.png) ![Henkilö 4](https://github.com/SariErv.png)
+<img src="https://github.com/jennysara.png" alt="Henkilö 1" width="100"> 
+<img src="https://github.com/Janitamaaaria.png" alt="Henkilö 2" width="100"> 
+<img src="https://github.com/mikkohaapea.png" alt="Henkilö 3" width="100">
+<img src="https://github.com/SariErv.png" alt="Henkilö 4" width="100">
+
