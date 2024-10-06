@@ -29,4 +29,4 @@ Arduino-koodissa on hyödynnetty keskeytyksiä, painikkeiden debounce-logiikkaa,
 
 # Ryhmän jäsenet
 
-![Henkilö 1](https://github.com/henkilo1.png) ![Henkilö 2](https://avatars.githubusercontent.com/u/183597713?v=4) ![Henkilö 3](https://github.com/henkilo3.png) ![Henkilö 4](https://github.com/henkilo3.png)
+![Henkilö 1]() ![Henkilö 2]() ![Henkilö 3]() ![Henkilö 4]()
