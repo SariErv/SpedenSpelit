@@ -27,8 +27,6 @@ Painikkeet: Liitettynä D10, D11, D12, ja D13
 Arduino-koodissa on hyödynnetty keskeytyksiä, painikkeiden debounce-logiikkaa, ja LED-valojen ohjausta, jotta pelistä saadaan mahdollisimman sulava ja käyttäjäystävällinen.
 
 
-# Tekijät
-![Profiilikuva](https://github.com/Janitamaaaria)
-![Profiilikuva](https://github.com/mikkohaapea)
-![Profiilikuva](https://github.com/jennysara)
-![Profiilikuva](https://github.com/SariErv)
+# Ryhmän jäsenet
+
+![Henkilö 1](https://github.com/henkilo1.png) ![Henkilö 2](https://avatars.githubusercontent.com/u/183597713?v=4) ![Henkilö 3](https://github.com/henkilo3.png) ![Henkilö 4](https://github.com/henkilo3.png)
