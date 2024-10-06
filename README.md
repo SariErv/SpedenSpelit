@@ -28,7 +28,7 @@ Arduino-koodissa on hyödynnetty keskeytyksiä, painikkeiden debounce-logiikkaa,
 
 
 # Tekijät
-- Jenny Sarajärvi
-- Sari Ervasti
-- Mikko Haapea
-- Janita Modig
+![Profiilikuva](https://github.com/Janitamaaaria)
+![Profiilikuva](https://github.com/mikkohaapea)
+![Profiilikuva](https://github.com/jennysara)
+![Profiilikuva](https://github.com/SariErv)
