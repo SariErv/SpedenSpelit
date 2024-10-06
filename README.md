@@ -10,3 +10,8 @@ Oulun Ammattikorkeakoulun TVT24KMO-luokka. Ryhmän 32 tietotekniikan sovelluspro
 - 	4x painiketta
 
 
+# Tekijät
+- Jenny Sarajärvi
+- Sari Ervasti
+- Mikko Haapea
+- Janita Modig
