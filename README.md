@@ -9,6 +9,9 @@ Oulun Ammattikorkeakoulun TVT24KMO-luokka. Ryhmän 32 tietotekniikan sovelluspro
 - 	4x lediä
 - 	4x painiketta
 
+# Kytkentä
+
+# Koodi
 
 # Tekijät
 - Jenny Sarajärvi
