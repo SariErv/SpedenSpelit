@@ -1,0 +1,9 @@
+#Projektissa käytettävät komponentit
+-	Arduino Uno
+- 2x 7-segmenttinäyttöä
+-	2x 74HC595 serial-to-parallel muuntimia
+-	4x lediä
+- 4x painiketta
+
+
+
