@@ -22,20 +22,26 @@ Painikkeet: Liitettynä D10, D11, D12, ja D13
 # Käyttöohjeet
 
 **Pelin käynnistäminen**
-Peli käynnistyy, kun painat kahta oikeanpuoleista lediä peräkkäin. 
+- Peli käynnistyy, kun painat kahta oikeanpuoleista lediä peräkkäin. 
+
 **Pelin kulku**
 - Pelissä arvotaan vuorotellen yksi ledi, joka alkaa vilkkua.
 - Sinun tehtäväsi on painaa kyseisen ledin nappia mahdollisimman nopeasti sen vilkkuessa.
 - Jokaisesta oikein painetusta napista saat pisteen, jotka näkyvät 7-segmenttinäytöllä.
-**Pelin eteneminen**
-Joka kymmenes oikea painallus nostaa pelin nopeutta 10 %, mikä vaikeuttaa peliä ja vaatii pelaajalta nopeutta. 
+
+**Pelin vaikeutuminen**
+- Joka kymmenes oikea painallus nostaa pelin nopeutta 10 %, mikä vaikeuttaa peliä ja vaatii pelaajalta nopeutta. 
+
 **Pelin päättyminen**
 -	Jos painat väärää nappia, peli päättyy välittömästi.
 -	Kun peli päättyy, kaikki ledit vilkkuvat merkiksi pelin loppumisesta.
+
 **Voittaminen**
-Pelin voittaa se pelaaja, joka kerryttää eniten pisteitä. 
+- Pelin voittaa se pelaaja, joka kerryttää eniten pisteitä. 
+
 **Pelin aloittaminen uudelleen**
-Kun peli päättyy, voit aloittaa uuden pelin painamalla kahta oikeanpuoleista lediä peräkkäin.
+- Kun peli päättyy, voit aloittaa uuden pelin painamalla kahta oikeanpuoleista lediä peräkkäin.
+
 
 
 # Kytkentä
