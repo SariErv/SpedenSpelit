@@ -3,7 +3,9 @@ Oulun Ammattikorkeakoulun TVT24KMO-luokka. Ryhmän 32 tietotekniikan sovelluspro
 
 # Projektin esittely
 
-Projekti hyödyntää Arduino Uno -mikrokontrolleria, painikkeita ja LED-valoja, jotka yhdessä muodostavat pelijärjestelmän. Pelissä on neljä painiketta, joita käytetään pelaamisen aikana, ja viides painike, jolla peli käynnistetään. Pelaajien on tarkoitus painaa oikeaa painiketta nopeasti tiettyjen LED-indikaatioiden mukaan. Alla kuvattu pelin kulku vuokaaviona.
+Projekti hyödyntää Arduino Uno -mikrokontrolleria, jossa käytetään LED-valoja ja painikkeita, jotka yhdessä muodostavat pelijärjestelmän. Pelijärjestelmä pitää sisällään neljä painiketta. Pelaajien tehtävänä on reagoida nopeasti ja painaa oikeaa painiketta tiettyjen LED-indikaatioiden mukaan. Tämä on reaktio- ja tarkkuupeli, joka vaatii nopeita refleksejä ja keskittymistä. 
+
+Alla kuvattu pelin kulku vuokaaviona.
 
 ![image](https://github.com/user-attachments/assets/e7a67299-080e-41c5-8c8d-a0dfac94a6ee)
 
