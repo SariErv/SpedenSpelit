@@ -3,6 +3,7 @@
 #include <Arduino.h>
 
 extern int activedLed;
+extern volatile bool timeToCheckGameStatus;
 
 
 /*
