@@ -1,6 +1,6 @@
 #ifndef BUTTONS_H
 #define BUTTONS_H
-#include <arduino.h>
+#include <Arduino.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
@@ -9,6 +9,8 @@ const byte firstPin = 10; // First PinChangeInterrupt on D-bus
 const byte lastPin =  13; // Last PinChangeInterrupt on D-bus
 
 extern volatile int pressedButton;
+
+extern volatile bool timeToCheckGameStatus; //extern unsigned long?
 
 /* 
   initButtonsAndButtonInterrupts subroutine is called from Setup() function
@@ -24,4 +26,4 @@ void initButtonsAndButtonInterrupts(void);
 
 // Intoduce PCINT2_vect Interrupt SeRvice (ISR) function for Pin Change Interrupt.
 ISR(PCINT0_vect); 
-#endif;
+#endif
