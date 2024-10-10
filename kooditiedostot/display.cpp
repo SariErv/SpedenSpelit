@@ -19,7 +19,7 @@ byte sevenSegDigits[] = {
   B01101111  // 9
 };
 
-int loopCounter = 0; //ei tarvi lopulliseen toteutukseen
+//int loopCounter = 0; //ei tarvi lopulliseen toteutukseen
 
 void initializeDisplay(void) {
   pinMode(latchPin, OUTPUT);
@@ -73,14 +73,45 @@ void writeHighAndLowNumber(uint8_t tensDigit, uint8_t onesDigit, bool rightDot, 
   */
 }
 
-// näytetään "GO"
-void showGO() {
-writeHighAndLowNumber(6, 0, false, false);
-}
-
 void showResult(byte number) {
 
   uint8_t tens = number / 10; // laskee kymmenluvut
   uint8_t ones = number % 10; //laskee ykkösluvut
   writeHighAndLowNumber(tens, ones, false, false); //kirjoittaa luvut näytölle
 } 
+
+// näytetään "GO"
+void showGO() {
+  writeHighAndLowNumber(6, 0, false, false);
+}
+
+//sammutetaan display
+void clearDisplay() {
+  digitalWrite(latchPin,LOW); //valmistellaan datan lähetys
+  shiftOut(dataPin,clockPin,MSBFIRST,false ? (B00000000 | B10000000) : B00000000);
+  shiftOut(dataPin,clockPin,MSBFIRST,false ? (B00000000 | B10000000) : B00000000);
+  digitalWrite(latchPin,HIGH); //lukitaan data
+}
+
+/*
+//
+void displayGo(bool uppercase)
+{
+  bool caps = uppercase;
+  if(caps)
+  {
+    digitalWrite(latchPin,LOW);
+    //...
+    shiftOut(dataPin,clockPin,MSBFIRST,false ? (B01011100 | B10000000) : B01011100); //oikea näyttö, pieni o (displayn alaosassa)
+    shiftOut(dataPin,clockPin,MSBFIRST,false ? (B01111101 | B10000000) : B01111101); //vasen näyttö, iso G (numero 6)
+    digitalWrite(latchPin,HIGH);
+  }
+  if(!caps)
+  {
+    digitalWrite(latchPin,LOW);
+    //shiftOut(dataPin,clockPin,MSBFIRST,false ? (B01100011 | B10000000) : B01100011); //oikea näyttö, pieni o (displayn ylaosassa)
+    shiftOut(dataPin,clockPin,MSBFIRST,false ? (B01011100 | B10000000) : B01011100); //oikea näyttö, pieni o (displayn alaosassa)
+    shiftOut(dataPin,clockPin,MSBFIRST,false ? (B01101111 | B10000000) : B01101111); //vasen näyttö, pieni g (numero 9)
+    digitalWrite(latchPin,HIGH);
+  }
+}*/
