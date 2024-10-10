@@ -1,6 +1,6 @@
 #ifndef DISPLAY_H
 #define DISPLAY_H
-#include <arduino.h>
+#include <Arduino.h>
 
 
 /*
@@ -15,7 +15,8 @@
 
 */
 void initializeDisplay(void);
-
+void showResult(byte number);
+void showGO();
 
 /*
   WriteByte subroutine writes number 0,1,...,9 to
@@ -32,7 +33,7 @@ void initializeDisplay(void);
   multiple times to write all cascaded numbers to 7-segment
   displays.
 */
-void writeByte(uint8_t number, bool last);
+// void writeByte(uint8_t number, bool last);
 
 
 /*
@@ -46,7 +47,8 @@ void writeByte(uint8_t number, bool last);
   uint8_t ones: number 0,1,..,9
   
 */
-void writeHighAndLowNumber(uint8_t tens,uint8_t ones);
+//void writeHighAndLowNumber(uint8_t tens,uint8_t ones);
+void writeHighAndLowNumber(uint8_t,uint8_t,bool,bool);
 
 
 /*
@@ -57,6 +59,7 @@ void writeHighAndLowNumber(uint8_t tens,uint8_t ones);
   Parameters:
   byte result: A number between 0,1,..,99. This function
 */
-void showResult(byte result);
+//void showResult(byte result);
+void showResult(byte);
 
 #endif
