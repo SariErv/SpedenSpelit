@@ -15,8 +15,7 @@
 
 */
 void initializeDisplay(void);
-void showResult(byte number);
-void showGO();
+
 
 /*
   WriteByte subroutine writes number 0,1,...,9 to
@@ -61,5 +60,11 @@ void writeHighAndLowNumber(uint8_t,uint8_t,bool,bool);
 */
 //void showResult(byte result);
 void showResult(byte);
+
+void showGO(void);
+
+void clearDisplay(void);
+
+//void displayGo(bool);
 
 #endif
