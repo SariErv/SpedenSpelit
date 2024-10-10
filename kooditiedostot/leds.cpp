@@ -57,9 +57,16 @@ void show1()
       {
         digitalWrite(ledPins[j], LOW);
       }
+      if(timeToCheckGameStatus) //jos nappia painetaan show1:n ollessa kaynnissa, sammutetaan kaikki ledit ja lopetetaan show1 keskenkaiken return-komennolla
+      {
+        timeToCheckGameStatus = false;
+        clearAllLeds();
+        return; 
+      }
     }
     delay(500);
   }
+  clearAllLeds();
 }
 
 
@@ -77,8 +84,15 @@ void show2(int repeats)
       {
         lightshowDelay -= 10; // Vähennetään viivettä joka kierroksella
       }
+      if(timeToCheckGameStatus) //jos nappia painetaan show2:n ollessa käynnissä, sammutetaan kaikki ledit ja lopetetaan show2 keskenkaiken return-komennolla
+      {
+        timeToCheckGameStatus = false;
+        clearAllLeds();
+        return;
+      }
     }
   }
+  clearAllLeds();
 }
 
 void flipOneLed(int ledNmbr)
