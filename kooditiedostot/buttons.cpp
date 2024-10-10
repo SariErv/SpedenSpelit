@@ -2,6 +2,9 @@
 
 volatile int pressedButton = -1; // -1 toimii merkkausarvona, että mikään nappi ei ole aktiivinen aluksi
 
+//volatile bool timeToCheckGameStatus = false;
+//extern volatile bool timeToCheckGameStatus = false; //extern unsigned long?
+
 const int buttonPins[] = {10,11,12,13}; // Käytetään taulukkoa, jotta voidaan käsitellä yksinkertaisemmin useampia pinnejä
 
 // Debounce-muuttuja
@@ -24,14 +27,14 @@ void initButtonsAndButtonInterrupts(void)
   {
     pinMode(buttonPins[i], INPUT_PULLUP);  // Asetetaan pinnit 10-13 INPUT_PULLUP tilaan, jotta kytkimiin ei tule häiriöitä
   }
-  Serial.print("Nappien pinnit alustettu");
+  Serial.println("Nappien pinnit alustettu");
   // See requirements for this function from buttons.h
 
 }
 
 ISR(PCINT0_vect) {
 
-unsigned long debounceTimer = millis(); // Otetaan nykyinen aika millisekunteina
+  unsigned long debounceTimer = millis(); // Otetaan nykyinen aika millisekunteina
 
   if (debounceTimer - interruptTime > 200)
   {
@@ -42,6 +45,8 @@ unsigned long debounceTimer = millis(); // Otetaan nykyinen aika millisekunteina
       if(pressed == LOW) // Jos joku painike painettu...
       {
         pressedButton = i; // ... painikkeen pinnin arvo tallennetaan muuttujaan pressedButton
+        Serial.println(pressedButton);
+        timeToCheckGameStatus = true;
         interruptTime = debounceTimer; // Tallennetaan muuttujaan edellisen keskeytyksen aika
         break; // Päätetään tämä silmukka, kun painettu nappi löydetty
       }
