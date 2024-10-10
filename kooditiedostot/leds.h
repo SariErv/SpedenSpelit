@@ -1,6 +1,6 @@
 #ifndef LEDS_H
 #define LEDS_H
-#include <arduino.h>
+#include <Arduino.h>
 
 extern int activedLed;
 
@@ -57,5 +57,9 @@ void show1(void);
               is shown. 
 */
 void show2(int);
+
+void flipOneLed(int);
+
+void flipAllLeds(void);
 
 #endif
