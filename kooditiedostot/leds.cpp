@@ -11,6 +11,7 @@ void initializeLeds()
     pinMode(ledPins[i], OUTPUT); // Alustetaan pinnit outputeiksi
   }
   clearAllLeds();
+  Serial.println("LEDit alustettu");
 }
 
 
@@ -77,5 +78,19 @@ void show2(int repeats)
         lightshowDelay -= 10; // Vähennetään viivettä joka kierroksella
       }
     }
+  }
+}
+
+void flipOneLed(int ledNmbr)
+{
+  int state = digitalRead(ledPins[ledNmbr]);
+  digitalWrite(ledPins[ledNmbr],!state);
+}
+
+void flipAllLeds()
+{
+  for(int i=0;i<4;i++)
+  {
+    flipOneLed(i);
   }
 }
