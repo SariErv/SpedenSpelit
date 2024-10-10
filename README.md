@@ -7,7 +7,8 @@ Projekti hyödyntää Arduino Uno -mikrokontrolleria, jossa käytetään LED-val
 
 Alla kuvattu pelin kulku vuokaaviona.
 
-![image](https://github.com/user-attachments/assets/e7a67299-080e-41c5-8c8d-a0dfac94a6ee)
+![image](https://github.com/user-attachments/assets/504b3160-5fbb-436f-82a5-3e55a108ad21)
+
 
 # Projektissa käytettävät komponentit
 - 	Arduino Uno
