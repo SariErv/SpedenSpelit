@@ -42,7 +42,7 @@ Painikkeet: Liitettynä D10, D11, D12, ja D13
 -	Kun peli päättyy, kaikki ledit vilkkuvat merkiksi pelin loppumisesta.
 
 **Voittaminen**
-- Pelin voittaa se pelaaja, joka kerryttää eniten pisteitä. 
+- Pelin voittaa se pelaaja, joka kerryttää eniten pisteitä. https://github.com/Janitamaaaria/SpedenSpelit/blob/main/README.md
 
 **Pelin aloittaminen uudelleen**
 - Kun peli päättyy, voit aloittaa uuden pelin painamalla kahta oikeanpuoleista lediä peräkkäin.
@@ -54,7 +54,7 @@ Painikkeet: Liitettynä D10, D11, D12, ja D13
 
 # Kytkentä
 ![image](https://github.com/user-attachments/assets/87d2d699-db9b-42f2-a33c-7433e69b6a8c)
-![image](https://github.com/Janitamaaaria/SpedenSpelit/blob/main/N%C3%A4ytt%C3%B6kuva%202024-10-11%20145449.png)
+
 
 # Koodi
 
