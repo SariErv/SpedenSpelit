@@ -47,7 +47,7 @@ Painikkeet: Liitettynä D10, D11, D12, ja D13
 **Pelin aloittaminen uudelleen**
 - Kun peli päättyy, voit aloittaa uuden pelin painamalla kahta oikeanpuoleista lediä peräkkäin.
 
-  **Lisäominaisuuksia pelissä**
+**Lisäominaisuuksia pelissä**
   - Painamalla peräkkäin kahta vasemmanpuoleista nappia tekevät ledit valoshow'n.  
 
 
