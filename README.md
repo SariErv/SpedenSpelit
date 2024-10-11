@@ -5,7 +5,7 @@ Oulun Ammattikorkeakoulun TVT24KMO-luokka. Ryhmän 32 tietotekniikan sovelluspro
 
 Projekti hyödyntää Arduino Uno -mikrokontrolleria, jossa käytetään LED-valoja ja painikkeita, jotka yhdessä muodostavat pelijärjestelmän. Pelijärjestelmä pitää sisällään neljä painiketta. Pelaajien tehtävänä on reagoida nopeasti ja painaa oikeaa painiketta tiettyjen LED-indikaatioiden mukaan. Tämä on reaktio- ja tarkkuupeli, joka vaatii nopeita refleksejä ja keskittymistä. 
 
-Alla kuvattu pelin kulku vuokaaviona. Vuokaavio on luotu projektin alkuvaiheessa. Lisäyksenä projektin toteutukseen on lisätty pieniä lisäominaisuuksia, kuten 7segment-näytöt näyttämään pelin käynnistyessä "GO" ja ledien vilkkuminen pelin ollessa päällä sekä pelin päättyessä. 
+Alla kuvattu pelin kulku vuokaaviona. Vuokaavio on luotu projektin alkuvaiheessa. Lisäyksenä projektin toteutukseen on lisätty pieniä lisäominaisuuksia, kuten 7segment-näytöt näyttämään pelin käynnistyessä "GO" ja ledien vilkkuminen vuorotellen pelin ollessa päällä sekä kaikkien ledien vilkkuminen pelin päättyessä. 
 
 ![image](https://github.com/user-attachments/assets/504b3160-5fbb-436f-82a5-3e55a108ad21)
 
@@ -38,6 +38,7 @@ Painikkeet: Liitettynä D10, D11, D12, ja D13
 
 **Pelin päättyminen**
 -	Jos painat väärää nappia, peli päättyy välittömästi.
+-	Jos olet kymmenen painallusta jäljessä, peli päättyy. 
 -	Kun peli päättyy, kaikki ledit vilkkuvat merkiksi pelin loppumisesta.
 
 **Voittaminen**
@@ -45,6 +46,9 @@ Painikkeet: Liitettynä D10, D11, D12, ja D13
 
 **Pelin aloittaminen uudelleen**
 - Kun peli päättyy, voit aloittaa uuden pelin painamalla kahta oikeanpuoleista lediä peräkkäin.
+
+  **Lisäominaisuuksia pelissä**
+  - Painamalla peräkkäin kahta vasemmanpuoleista nappia tekevät ledit valoshow'n.  
 
 
 
