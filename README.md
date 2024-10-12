@@ -44,7 +44,7 @@ Mikropiirit liitettynä D5, D6 ja D7
 -	Kun peli päättyy, kaikki ledit vilkkuvat merkiksi pelin loppumisesta.
 
 **Voittaminen**
-- Pelin voittaa se pelaaja, joka kerryttää eniten pisteitä. https://github.com/Janitamaaaria/SpedenSpelit/blob/main/README.md
+- Pelin voittaa se pelaaja, joka kerryttää eniten pisteitä.
 
 **Pelin aloittaminen uudelleen**
 - Kun peli päättyy, voit aloittaa uuden pelin painamalla kahta oikeanpuoleista painiketta peräkkäin.
