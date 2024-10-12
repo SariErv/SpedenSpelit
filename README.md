@@ -27,7 +27,7 @@ Mikropiirit liitettynä D5, D6 ja D7
 # Käyttöohjeet
 
 **Pelin käynnistäminen**
-- Peli käynnistyy, kun painat kahta oikeanpuoleista lediä peräkkäin. 
+- Peli käynnistyy, kun painat kahta oikeanpuoleista painiketta peräkkäin. 
 
 **Pelin kulku**
 - Pelissä arvotaan vuorotellen yksi ledi, joka alkaa vilkkua.
@@ -46,10 +46,10 @@ Mikropiirit liitettynä D5, D6 ja D7
 - Pelin voittaa se pelaaja, joka kerryttää eniten pisteitä. https://github.com/Janitamaaaria/SpedenSpelit/blob/main/README.md
 
 **Pelin aloittaminen uudelleen**
-- Kun peli päättyy, voit aloittaa uuden pelin painamalla kahta oikeanpuoleista lediä peräkkäin.
+- Kun peli päättyy, voit aloittaa uuden pelin painamalla kahta oikeanpuoleista painiketta peräkkäin.
 
 **Lisäominaisuuksia pelissä**
-  - Painamalla peräkkäin kahta vasemmanpuoleista nappia tekevät ledit valoshow'n.  
+  - Painamalla peräkkäin kahta vasemmanpuoleista painiketta tekevät ledit valoshow'n.  
 
 
 
