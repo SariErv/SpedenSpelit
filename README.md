@@ -22,6 +22,7 @@ Painikkeet ja LED-valot on kytketty seuraaviin Arduino-pinneihin:
 
 LEDit: Liitettynä A1, A2, A3, ja A4
 Painikkeet: Liitettynä D10, D11, D12, ja D13
+
 Mikropiirit liitettynä D5, D6 ja D7
 
 # Käyttöohjeet
