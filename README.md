@@ -67,6 +67,7 @@ Mikropiirit liitettynä D5, D6 ja D7
 
 Arduino-koodissa on hyödynnetty keskeytyksiä, painikkeiden debounce-logiikkaa, ja LED-valojen ohjausta, jotta pelistä saadaan mahdollisimman sulava ja käyttäjäystävällinen.
 
+Kooditiedostot kansiossa on liitteenä koodit, joita olemme käyttäneet pelin toteutuksessa. 
 
 # Ryhmän jäsenet
 
