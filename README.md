@@ -55,7 +55,8 @@ Mikropiirit liitettynä D5, D6 ja D7
 
 
 # Kytkentä
-![image](https://github.com/user-attachments/assets/87d2d699-db9b-42f2-a33c-7433e69b6a8c)
+
+![Kytkentä_SpedenSpelit](https://github.com/user-attachments/assets/fa7c0efd-a98d-49ee-9795-cbac84fa2039)
 
 
 # Wokwi toteutus
