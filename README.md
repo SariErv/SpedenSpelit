@@ -12,11 +12,11 @@ Alla kuvattu pelin kulku vuokaaviona. Vuokaavio on luotu projektin alkuvaiheessa
 
 # Projektissa käytettävät komponentit
 - 	Arduino Uno
-- 	2x 7-segmenttinäyttöä
-- 	2x 74HC595 serial-to-parallel muuntimia
-- 	4x lediä
-- 	4x painiketta
-- 	hyppylankoja, vastuksia
+- 	2 x 7-segmenttinäyttöä
+- 	2 x 74HC595 serial-to-parallel muuntimia
+- 	4 x lediä
+- 	4 x painiketta
+- 	hyppylankoja, vastuksia (~460 ohm)
 
 Painikkeet ja LED-valot on kytketty seuraaviin Arduino-pinneihin:
 
