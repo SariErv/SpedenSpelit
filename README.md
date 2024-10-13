@@ -50,7 +50,7 @@ Mikropiirit liitettynä D5, D6 ja D7
 - Kun peli päättyy, voit aloittaa uuden pelin painamalla kahta oikeanpuoleista painiketta peräkkäin.
 
 **Lisäominaisuuksia pelissä**
-  - Painamalla peräkkäin kahta vasemmanpuoleista painiketta tekevät ledit valoshow'n.  
+  - Painamalla peräkkäin kahta vasemmanpuoleista painiketta tekevät ledit valoshow'n. Voit halutessasi keskeyttää valoshown painamalla mitä tahansa nappia.
 
 
 
