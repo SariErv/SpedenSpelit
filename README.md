@@ -1,4 +1,4 @@
-# Speden Spelit_R322
+# Speden Spelit_R32
 Oulun Ammattikorkeakoulun TVT24KMO-luokka. Ryhmän 32 tietotekniikan sovellusprojekti, jossa toteutamme Speden Spelit-pelin. Käytämme pelin toteutuksessa Arduino Uno-mikrokontrolleria sekä elektroniikan komponentteja.
 
 # Projektin esittely
